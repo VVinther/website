@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="da"> 
+
+<head>
+    <meta charset="utf-8">
+    <title>Links og billeder</title>
+</head>
+
+<body>
+<a href="index.html">Tilbage til forsiden</a>
+    <section>
+        <h2>Links og billeder</h2>
+        <div>
+            <h3>Links</h3>
+            <p>
+                For at lave links bruger man anchor tagget [a], der kan laves relative links, som linker til et sted på samme domæne, og der kan laves absolutte links, som linker til et andet domæne.<br> Absolutte links refererer til et bestemt sted på domæner, såsom <a href="https://www.google.com">dette link til Google</a>. Det virker kun som et absolut link fordi der er [https://] foran, ellers ville det prøve at finde [www.google.com] på samme "drev" som siden man er på selv. Det ville ikke kunne virke hvis man har siden lokalt gemt på sin PC, f.eks.<br> Relative links refererer til et sted på samme domæne og kræver ikke at bruge [https://]. <a href="page3.html">Her er et eksempel på et relativt link</a>.<br>Der er også forskellige måder at lave relative links der fører til mapper inden den side man er på. Den ene måde er at gå til hovedmappen ved at bruge "/" i starten af linket. Den anden måde er at bruge "../", som fører til mappen lige inden den side man er på. Det betyder at man virkelig skal vide hvor man er henne, og hvor man skal hen med linket.
+            </p>
+        </div>
+        <div>
+            <h3>Billeder</h3>
+            <p>
+                Billeder bruger tagget [img] for at blive vist. Man kan bruge både relative og absolutte refereringer af et billede. Men i stedet for at bruge [href] til at referere til billedet bruger man [src]. Hvis man bruger [alt] i ens billed kan man beskrive hvad der er i billedet, så søgemaskiner også kan vide om et billede kan være relevant til billedsøgning, såvel som at gøre det muligt for text-to-speech programmer at sige hvad der er. Man kan også give et billede tekst på sig når man holder musen over den ved at bruge [title].<br>
+                <img src="Hide-the-Pain-Harold.jpg" alt="Hide the pain harold" title="Den her side vil se bedre ud med CSS">
+            </p>
+        </div>
+    </section>
+    <div><a href="index.html">Tilbage til forsiden</a></div>
+</body>
+
+</html>
